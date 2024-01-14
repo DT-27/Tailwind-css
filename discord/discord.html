@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./discord.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Colormash</title>
+</head>
+<body>
+  <body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <h1 class="text-4xl font-bold text-indigo-600 mb-4">Colorful Website</h1>
+        <!-- Your content goes here -->
+    </div>
+    <div class="flex space-x-4">
+        <div class="w-1/3 p-4 bg-green-400 rounded-lg">
+            <h2 class="text-xl font-bold text-white">Section 1</h2>
+            <p class="text-white">This is a colorful section with green background.</p>
+        </div>
+        <div class="w-1/3 p-4 bg-blue-400 rounded-lg">
+            <h2 class="text-xl font-bold text-white">Section 2</h2>
+            <p class="text-white">This is another section with blue background.</p>
+        </div>
+        <div class="w-1/3 p-4 bg-pink-400 rounded-lg">
+            <h2 class="text-xl font-bold text-white">Section 3</h2>
+            <p class="text-white">This is a third section with pink background.</p>
+        </div>
+    </div>
+    <div class="w-1/3 p-4 bg-custom-green rounded-lg">
+        <h2 class="text-xl font-bold text-custom-white">Custom Section</h2>
+        <p class="text-custom-white">This section uses custom colors.</p>
+    </div>
+    <div class="animate-bounce">This element will bounce.</div>
+    <nav class="bg-purple-500 p-4 text-white">
+           <div class="container mx-auto flex justify-between items-center">
+               <a href="#" class="text-xl font-bold">My Website</a>
+               <ul class="flex space-x-4">
+                   <li><a href="#" class="hover:underline">Home</a></li>
+                   <li><a href="#about" class="hover:underline">About</a></li>
+                   <li><a href="#services" class="hover:underline">Services</a></li>
+                   <li><a href="#contact" class="hover:underline">Contact</a></li>
+               </ul>
+           </div>
+       </nav>
+       <!-- Hero Section -->
+        <header class="h-screen flex items-center justify-center">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to My Colorful Website</h1>
+                <p class="text-lg md:text-xl mb-8">Explore the beauty of Tailwind CSS</p>
+                <a href="#about" class="bg-pink-500 text-gray-800 py-2 px-4 rounded-full inline-block hover:bg-pink-400">Learn More</a>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about" class="container mx-auto my-12 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Us</h2>
+            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac orci eget justo vestibulum sagittis eget ac urna. Nulla facilisi. In vel convallis massa.</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="bg-yellow-500 text-gray-800 py-16">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="p-6 bg-yellow-600 rounded-lg">
+                        <h3 class="text-xl md:text-2xl font-bold mb-2">Web Design</h3>
+                        <p>Creative and responsive web design solutions.</p>
+                    </div>
+                    <div class="p-6 bg-yellow-600 rounded-lg">
+                        <h3 class="text-xl md:text-2xl font-bold mb-2">Graphic Design</h3>
+                        <p>Innovative graphic design to enhance your brand.</p>
+                    </div>
+                    <div class="p-6 bg-yellow-600 rounded-lg">
+                        <h3 class="text-xl md:text-2xl font-bold mb-2">SEO Optimization</h3>
+                        <p>Optimize your website for better search engine visibility.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container mx-auto my-12 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Contact Us</h2>
+            <p class="text-gray-600 mb-8">Ready to start your project? Reach out to us for more information.</p>
+            <form action="#" method="post" class="max-w-md mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-800 text-sm md:text-base font-bold mb-2">Name</label>
+                    <input type="text" id="name" name="name" class="w-full p-3 border rounded-full">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-800 text-sm md:text-base font-bold mb-2">Email</label>
+                    <input type="email" id="email" name="email" class="w-full p-3 border rounded-full">
+                </div>
+                <div class="mb-6">
+                    <label for="message" class="block text-gray-800 text-sm md:text-base font-bold mb-2">Message</label>
+                    <textarea id="message" name="message" rows="4" class="w-full p-3 border rounded"></textarea>
+                </div>
+                <button type="submit" class="bg-purple-500 text-white py-3 px-6 rounded-full hover:bg-purple-400">Submit</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto text-center">
+                <p>&copy; 2024 Beautiful Tailwind Website. All rights reserved.</p>
+            </div>
+        </footer>
+</body>
+</html>

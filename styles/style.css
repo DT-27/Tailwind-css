@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    /* Custom Colors */
+    .bg-custom-green { background-color: #2ecc71; }
+    .text-custom-white { color: #ffffff; }
+}
